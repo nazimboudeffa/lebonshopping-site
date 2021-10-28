@@ -1,64 +1,42 @@
 <!DOCTYPE html>
-<html>
-<title>Le Bon Shopping | Bienvenue</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta name="description" content="Site de commerce en ligne pour petites structures en France.">
-<meta name="author" content="Nazim Boudeffa">
-
-<meta property="og:url" content="index.html" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Le Bon Shopping" />
-<meta property="og:description" content="Site de commerce en ligne pour petites structures en France." />
-<meta property="og:image" content="https://www.lebonshopping.fr/w3images/1.jpg" />
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="Le Bon Shopping">
-<meta name="twitter:creator" content="@nazimboudeffa">
-<meta name="twitter:title" content="Le Bon Shopping">
-<meta name="twitter:url" content="https://www.lebonshopping.fr">
-<meta name="twitter:description" content="Site de commerce en ligne pour petites structures en France.">
-<meta name="twitter:image" content="https://www.lebonshopping.fr/w3images/1.jpg">
-<!--
-<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
--->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  /* background-image: url('w3images/daoud-abismail-uMv3cYw6zBU-unsplash.jpg');*/
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Boutiques du Site</title>
+</head>
 <body>
-<div id="bg" class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Sur Le Bon Shopping on s'occupe de tout !
-  </div>
-  <div class="w3-display-middle">
-    <!-- 
-      <h1 class="w3-jumbo w3-animate-top">BIENVENUE</h1>
-      <hr class="w3-border-grey" style="margin:auto;width:40%">
-    -->
-    <p class="w3-large w3-center"><a href="boutiques.html" class="w3-button w3-pink">Entrer</a></p>
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    <p>Pour toute information veuillez nous contacter sur Facebook <a href="https://www.facebook.com/Le-Bon-Shopping-100662202349910">Le Bon Shopping</a></p>
-  </div>
-</div>
-
-<script type="text/javascript">
-  randomImage = function() {
-    imgs = ['w3images/mike-petrucci-c9FQyqIECds-unsplash.jpg'];
-    var randomNumber = Math.floor(Math.random() * imgs.length);
-    return imgs[randomNumber]
-  };
-  document.getElementById('bg').style.backgroundImage = 'url('+randomImage()+')';
-</script>
+    <style>
+        .grid { 
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+          grid-gap: 20px;
+          align-items: stretch;
+          }
+        .grid img {
+          border: 1px solid #ccc;
+          box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+          max-width: 100%;
+        }
+        </style>
+        <div>
+          <h1>Objectif</h1>
+          <p>
+            Nous contruisons le site avec des commerçant et nous souhaitons qu'il soit le plus simple à utiliser
+          </p>
+          <p>
+            La technologie que nous utilisons c'est PrestaShop et tout ce que nous codons est disponible sur le site GitHub
+          </p>
+          <p>L'équipe Le Bon Shopping</p>
+        </div>
+        <main class="grid">
+          <a href="http://artisanat.lebonshopping.fr"><img src="w3images/1.jpg" alt="Sample photo"></a>
+          <img src="w3images/artem-gavrysh-F6-U5fGAOik-unsplash.jpg" alt="Sample photo">
+          <img src="w3images/artem-gavrysh-F6-U5fGAOik-unsplash.jpg" alt="Sample photo">
+          <img src="w3images/artem-gavrysh-F6-U5fGAOik-unsplash.jpg" alt="Sample photo">
+          <img src="w3images/artem-gavrysh-F6-U5fGAOik-unsplash.jpg" alt="Sample photo">
+          <img src="w3images/artem-gavrysh-F6-U5fGAOik-unsplash.jpg" alt="Sample photo">
+        </main>
 </body>
 </html>
