@@ -1,8 +1,8 @@
 # Le Bon Shopping
 
-## Installation
-
 Many thanks to [@flybaby57](https://twitter.com/flybaby57) for [the installation script](https://forge.web-rd-info.fr/open/install_cli_prestashop/-/tree/master)
+
+## Installation
 
 ```
 git clone https://forge.web-rd-info.fr/webrdinfo/install_cli_prestashop.git ./
