@@ -2,6 +2,8 @@
 
 Many thanks to [@flybaby57](https://twitter.com/flybaby57) for [the installation script](https://forge.web-rd-info.fr/open/install_cli_prestashop/-/tree/master)
 
+If you want a sub domain on [souk.best](https://souk.best) just keep me informed
+
 ## Installation
 
 ```
