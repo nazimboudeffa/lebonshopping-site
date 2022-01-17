@@ -111,7 +111,7 @@
       </div>
     </div>
 
-    <!-- Messenger Plugin de discussion Code -->
+<!-- Messenger Plugin de discussion Code -->
     <div id="fb-root"></div>
 
     <!-- Your Plugin de discussion code -->
@@ -122,7 +122,10 @@
       var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "100662202349910");
       chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
 
+    <!-- Your SDK code -->
+    <script>
       window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,
